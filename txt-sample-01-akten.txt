@@ -1,0 +1,9 @@
+
+# Concepts
+
+## Reinforced learning (RL)
+
+>In Reinforcement Learning (RL), the model is not trained with labels associating inputs with targets. It is neither supervised (with a direct supervisory signal) nor unsupervised (with no supervisory signal), but instead there is a delayed reward signal [Kaelbling, Littman, & Moore, 1996]
+>[...]
+>decisions or predictions are called actions, and the decision making (or action taking) entity is called an agent. This is because RL is based on a Markov Decision Process (MDP) (Bellman, 1957), where there is a notion of time, and at each time-step, agents **take actions and move between different states**. 
+> (Akten, 2017)
