@@ -1,17 +1,21 @@
 {
   "name": "x__google_cloud_language__2011030425",
   "version": "1.0.0",
-  "description": "",
+  "description": "Experimentation with Google Cloud APIs and few CLi installer for further usage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeIsabelleX/x__google_cloud_language__2011030425.git"
   },
   "bin": {
     "gixnlp": "gixnlp.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Guillaume Descoteaux-Isabelle",
+  "license": "MIT",
   "dependencies": {
     "@google-cloud/language": "^4.2.0"
   }
