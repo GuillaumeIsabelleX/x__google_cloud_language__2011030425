@@ -420,38 +420,38 @@ require('yargs')
     opts => classifyTextInFile(opts.bucketName, opts.fileName)
   )
   .example(
-    'node $0 sentiment-text "President Obama is speaking at the White House."'
+    'gixnlp sentiment-text "President Obama is speaking at the White House."'
   )
   .example(
-    'node $0 sentiment-file my-bucket file.txt',
+    'gixnlp sentiment-file my-bucket file.txt',
     'Detects sentiment in gs://my-bucket/file.txt'
   )
   .example(
-    'node $0 entities-text "President Obama is speaking at the White House."'
+    'gixnlp entities-text "President Obama is speaking at the White House."'
   )
   .example(
-    'node $0 entities-file my-bucket file.txt',
+    'gixnlp entities-file my-bucket file.txt',
     'Detects entities in gs://my-bucket/file.txt'
   )
   .example(
-    'node $0 syntax-text "President Obama is speaking at the White House."'
+    'gixnlp syntax-text "President Obama is speaking at the White House."'
   )
   .example(
-    'node $0 syntax-file my-bucket file.txt',
+    'gixnlp syntax-file my-bucket file.txt',
     'Detects syntax in gs://my-bucket/file.txt'
   )
   .example(
-    'node $0 entity-sentiment-text "President Obama is speaking at the White House."'
+    'gixnlp entity-sentiment-text "President Obama is speaking at the White House."'
   )
   .example(
-    'node $0 entity-sentiment-file my-bucket file.txt',
+    'gixnlp entity-sentiment-file my-bucket file.txt',
     'Detects sentiment of entities in gs://my-bucket/file.txt'
   )
   .example(
-    'node $0 classify-text "Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets."'
+    'gixnlp classify-text "Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets."'
   )
   .example(
-    'node $0 classify-file my-bucket android_text.txt',
+    'gixnlp classify-file my-bucket android_text.txt',
     'Detects syntax in gs://my-bucket/android_text.txt'
   )
   .wrap(120)
