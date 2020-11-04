@@ -6,6 +6,8 @@ x__google_cloud_language__2011030425
 ```sh
 gixnlp help
 gixtranslate help
+gixspeech 
+
 ```
 
 ## Sample
@@ -17,3 +19,9 @@ gixnlp classify-text "$(cat txt-sample-01-akten.txt)"
 # Translate
 gixtranslate t fr "Hello world my friend"
 ```
+
+# Prereq
+
+## gixspeech
+
+* sox
