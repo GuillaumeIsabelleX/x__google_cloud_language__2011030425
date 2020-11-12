@@ -1,6 +1,6 @@
 {
   "name": "gix2011030425",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Experimentation with Google Cloud APIs and few CLi installer for further usage",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "bin": {
     "gixnlp": "gixnlp.js",
     "gixtranslate": "gixtranslate.js",
-    "gixspeech":"gixspeech.js"
+    "gixspeech": "gixspeech.js"
   },
   "keywords": [],
   "author": "Guillaume Descoteaux-Isabelle",

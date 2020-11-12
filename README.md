@@ -18,6 +18,10 @@ gixnlp classify-text "$(cat txt-sample-01-akten.txt)"
 
 # Translate
 gixtranslate t fr "Hello world my friend"
+
+# Speech Transcription session
+gixspeech
+
 ```
 
 # Prereq
